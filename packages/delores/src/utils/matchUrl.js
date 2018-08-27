@@ -1,6 +1,6 @@
 // @flow
 import pathToRegexp from 'path-to-regexp'
-import { urlToLocation } from './index'
+import urlToLocation from './urlToLocation'
 import type { Route, Options } from '../flow-types'
 
 export default (

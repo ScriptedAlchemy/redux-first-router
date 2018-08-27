@@ -1,7 +1,7 @@
 // @flow
 
 import { isAction, isNotFound } from '../../utils'
-import { notFound } from '../../actions'
+import { notFound } from '@respond-framework/delores'
 import { handleError } from './index'
 
 export default (

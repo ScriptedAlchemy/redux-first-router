@@ -1,7 +1,11 @@
 // @flow
 import resolvePathname from 'resolve-pathname'
-import { urlToLocation, locationToUrl, cleanBasename, matchUrl } from './index'
-import { notFound } from '../actions'
+import urlToLocation from './urlToLocation'
+import locationToUrl from './locationToUrl'
+import cleanBasename from './cleanBasename'
+import matchUrl from './matchUrl'
+import notFound from '../actions/notFound'
+
 import type {
   Routes,
   HistoryLocation,

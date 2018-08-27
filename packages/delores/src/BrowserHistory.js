@@ -1,7 +1,7 @@
 // @flow
 /* eslint-env browser */
 import History from './History'
-import { locationToUrl } from '../utils'
+import locationToUrl from './utils/locationToUrl'
 import {
   addPopListener,
   removePopListener,

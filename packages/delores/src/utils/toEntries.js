@@ -1,5 +1,5 @@
 // @flow
-import { toAction } from './index'
+import toAction from './toAction'
 import type { Route } from '../flow-types'
 
 export default (

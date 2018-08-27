@@ -1,5 +1,7 @@
 // @flow
-import { compileUrl, cleanBasename } from './index'
+import compileUrl from './compileUrl'
+import cleanBasename from './cleanBasename'
+
 
 import type {
   Route,

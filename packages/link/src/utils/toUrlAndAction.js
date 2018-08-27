@@ -2,10 +2,12 @@
 import resolvePathname from 'resolve-pathname'
 import {
   actionToUrl,
-  toAction,
   findBasename,
   stripBasename,
 } from '@respond-framework/rudy'
+import {
+  toAction,
+} from '@respond-framework/delores'
 import type { Routes, Options } from '@respond-framework/rudy'
 
 export type To = string | Array<string> | Object

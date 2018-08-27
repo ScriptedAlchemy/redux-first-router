@@ -1,5 +1,7 @@
 // @flow
-import { actionToUrl, urlToAction } from './index'
+import actionToUrl from './actionToUrl'
+import urlToAction from './urlToAction'
+
 import type { Options, Routes, LocationState } from '../flow-types'
 // This will take anything you throw at it (a url string, action, or array: [url, state, key?])
 // and convert it to a complete Rudy FSRA ("flux standard routing action").

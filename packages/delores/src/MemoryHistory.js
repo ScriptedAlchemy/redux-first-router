@@ -1,7 +1,7 @@
 // @flow
 import History from './History'
 import { restoreHistory, saveHistory, supportsSession } from './utils'
-import { toEntries } from '../utils'
+import toEntries from './utils/toEntries'
 
 // Even though this is used primarily in environments without `window` (server + React Native),
 // it's also used as a fallback in browsers lacking the `history` API (<=IE9). In that now rare case,
